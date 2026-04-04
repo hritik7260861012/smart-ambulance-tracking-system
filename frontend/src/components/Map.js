@@ -124,7 +124,7 @@ function Map() {
                 <Polyline positions={routePath} color="red" />
 
                 <Marker position={[26.9124, 75.7873]} icon={hospitalIcon}>
-                    <Popup>🏥 Hospital</Popup>
+                    <Popup>➕🛑 Hospital</Popup>
                 </Marker>
             </MapContainer>
         </>
